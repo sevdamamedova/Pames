@@ -1,0 +1,354 @@
+@import'./reset.css';
+@import'./font.css';
+@import'./icon.css';
+@import'./helper.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+
+.section-form .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.img-container{
+    position: relative;
+    margin-top: 200px;
+    flex-shrink: 0;
+}
+
+.img-itme{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    margin-bottom: 0px;
+}
+
+.center{
+    height: 100%;
+    display: grid;
+    align-items: end;
+    padding: 50px 0px;
+}
+.center h5{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.center h5 span{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+}
+
+.center button{
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    background-color: #4A44D1;
+    border: 1px solid #433EC2;
+    border-radius: 50px;
+    
+}
+.center button input{
+    width: 100%;   
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #9E9BF1;
+}
+
+.rgiht{
+    background-image: url(../img/home.img/newsletter_shape03.png.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+
+.rgiht button{
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    background-color: #FFC224;
+    border: 1px solid #141109;
+    box-shadow: 4px 6px 0px 0px #3D3D3D;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.92px;
+    color: #161439;
+}
+
+/* section */
+
+.sec-2 .container{
+    padding: 88px 0px;
+    display: grid;
+    grid-template-columns: 376px auto;
+    gap: 30px;
+}
+
+.btn-community{
+    padding: 10px 20px;
+    color: #5751E1;
+    border-radius: 30px;
+    background-color: #EFEEFE;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 13px;
+
+}
+.sec-2 h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47.88px;
+    color: #161439;
+    
+}
+
+.sec-2 p{
+    margin: 10px 0px 10px 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6C80;
+}
+
+.btn-seeAll{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5751E1;
+    border: 1px solid #141109;
+    box-shadow: 4px 6px 0px 0px #050071;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.92px;
+    color: #fff;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.card{
+    padding: 21px 26px;
+    border: 1px solid #B5B5C3;
+    border-radius: 10px;
+}
+.card img{
+    margin-bottom: -10px;
+}
+
+.card button{
+    margin-top: -50px;
+    padding: 9px 14px;
+    background-color: #FFC224;
+    border: 1px solid #141109;
+    box-shadow: 4px 6px 0px 0px #3D3D3D;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #161439;
+}
+.card h5{
+    font-family: Poppins;
+    margin: 17px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    color: #161439;
+
+}
+
+.btn-nav{
+    display: flex;
+    align-items: center;
+}
+
+.card span{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #6D6C80;
+}
+
+/* section blog-post */
+.blog-posts{
+    background: var(--bgBlue);
+}
+.blog-posts .container{
+    padding: 66px 0px;   
+}
+
+.blog-posts-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.blog-posts button{
+    padding: 3px 16px;
+    background-color: #EFEEFE;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.92px;
+    color: #5751E1;
+
+}
+
+.blog-posts h4{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47.88px;
+    color: #fff;
+    margin: 14px;
+
+}
+
+.blog-posts p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+
+.blog-posts .posts{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap: 20px;  
+}
+
+.post{
+    padding: 21px 26px;
+    background-color: #EFEEFE;
+    border: 1px solid #B5B5C3;
+    border-radius: 10px;
+    position: relative;
+}
+
+.post button{
+    position: absolute;
+    top: 38px;
+    left: 48px;
+    background-color: #5751E1;
+    color: #fff;
+    border-radius: 30px;
+    padding: 3px 12px;
+}
+
+.post span{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+
+
+}
+
+.icon-list{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0px;
+}
+
+.post h5{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px; 
+    color: #161439;
+}
+
+/*section-instructor */
+.instructor{
+    margin: 77px 0px;
+    background-color: #F7F7F9;
+}
+.instructor .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.instructor-itme{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #BDBDBD;
+    border-radius: 16px;
+}
+.img-box{
+    padding-top: 90px;
+    width: 100%;
+}
+
+.img-bg{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+.instructor-content{
+    padding: 20px 10px;
+}
+.instructor-content h4{
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 36.4px;
+   color: #161439;
+
+}
+
+.instructor-content p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6C80;
+
+}
+.instructor-content button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #5751E1;
+    box-shadow: 4px 6px 0px 0px #050071;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.92px;
+}
+

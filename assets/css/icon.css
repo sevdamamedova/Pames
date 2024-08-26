@@ -1,0 +1,63 @@
+.icon{
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+   
+}
+
+.icon-search{
+    background-image: url(../img/search.svg);
+}
+
+.icon-link{
+    background-image: url(../img/Link.svg);
+}
+
+.icon-avatar{
+    background-image: url(../img/avatar.svg);
+}
+
+.icon-symbol{
+    background-image: url(../img/Symbol.svg);
+}
+
+.icon-symbol1{
+    background-image: url(../img/Symbol\ \(1\).svg);
+}
+.icon-fb{
+    background-image: url(../img/icon-fb.svg);
+    width: 40px;
+    height: 40px;
+}
+.icon-youtube{
+    background-image: url(../img/icon-youtube.svg);
+    width: 40px;
+    height: 40px;
+}
+
+.icon-symbol-min{
+    background-image: url(../img/symbol-min.svg);
+}
+
+.icon-section-event{
+    background-image: url(../img/home.img/Section\ →\ event_shape.png.svg);
+
+}
+.icon-link3{
+    background-image: url(../img/home.img/Link\ \(3\).svg);
+
+}
+.icon-vector15{
+    background-image: url(../img/home.img/Vector\ \(15\).svg);
+
+}
+.icon-vector16{
+    background-image: url(../img/home.img/Vector\ \(16\).svg);
+
+}
+
